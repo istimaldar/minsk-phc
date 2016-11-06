@@ -7,7 +7,12 @@
 * jQuery
 * HTML5 & CSS3
 ## User Interfaces
-See MockUps in 'Mockups' directory.
+* Start page.
+![Main page](Mockups/Start Page.png)
+* User profile.
+![Profile](Mockups/Your profie.png)
+* Event page.
+![Event page](Mockups/Full concert info.png)
 ## User Characteristics
 There are 3 types of users:
 1. Administrators
@@ -17,14 +22,14 @@ There are 3 types of users:
 3. Guests
   * Guests can only watch all event's pages.
 ## Assumptions and Dependencies
-There are many factors to change the functionality and requirements in this project, especially the changes in frameworks.
+There are no any existing APIs to track events. Events have to be added by administrators.
 # System Requirements
 ## Functional Requirements
 * Social network authentication.
-* Sign up page and log in page.
+* Search for events.
 * Commentaries.
-* Marking the event as favorite and hoped-for visiting. Displaying it in user profile.
+* Marking the event as favorite and hoped-for visiting for each authorized user.
 ## Non-Functional Requirements
-* User-friendly interface - the application should be simple.
+* Adaptive design - users should have a possibility to track their favorite events using smartphone.
 * Simple authentication - there is the possibility to log in on site using social networks, and if you have and account in any popular network such as VKontakte, Twitter and Facebook, you can easily create a profile.
 * Web-poster, not a shop - users only have the ability to watch the nearest event's dates, all the other info will be on the organizer's web-site.
