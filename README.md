@@ -16,7 +16,14 @@
 ![Event page](Mockups/Full concert info.png)
 
 ## User Characteristics
-There are 3 types of users:
+**minsk-phc** is a good poster for post-hardcore, metalcore and similar music genres lovers from Belarus. 
+  
+## Assumptions and Dependencies
+There are no any existing APIs to track events. Events have to be added by administrators.
+
+# System Requirements
+## Functional Requirements
+There are 3 types of users and here their permissions are listed:
 
 1. Administrators
   * Admins can add events, change event's info and ban users. Also they have all the permissions of General users.
@@ -25,15 +32,10 @@ There are 3 types of users:
 3. Guests
   * Guests can only watch all event's pages.
   
-## Assumptions and Dependencies
-There are no any existing APIs to track events. Events have to be added by administrators.
-
-# System Requirements
-## Functional Requirements
-* Social network authentication.
-* Search for events.
-* Commentaries.
-* Marking the event as favorite and hoped-for visiting for each authorized user.
+Also every registered user will have the possibility to:
+* Log in through social networks (Facebook, Twitter, Vkontakte). If you are not registered, you can register through one of this networks.
+* Comment events.
+* Mark the event as favorite and hoped-for visiting.
 
 ## Non-Functional Requirements
 * Adaptive design - users should have a possibility to track their favorite events using smartphone.
