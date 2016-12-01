@@ -4,7 +4,6 @@
 ## Software Interfaces
 * Ruby on Rails
 * Bootstrap
-* jQuery
 * HTML5 & CSS3
 
 ## User Interfaces
