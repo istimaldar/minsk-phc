@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PosterApp</title>
+    <title>MinskPHC</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "application/header" %>
+    <div id="wrap">
+      <div class="container">
+        <%= yield %>
+      </div>
+      <div id="push"></div>
+    </div>
   </body>
 </html>
